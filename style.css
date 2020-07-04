@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+html{
+    font-size: 16px;
+}
+
+body{
+    color: #ffffff;
+    background: #346b31 ;
+    margin: 0 auto;
+    min-height: 100vh;
+    font-family: Balsamiq Sans;
+    line-height: 2rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    font-size: 3.5rem;
+    letter-spacing: 0.15rem;
+}
+
+main{
+    font-size: 2rem;
+    transform: translateY(-10vh);
+    width: 65vw;
+}
+
+#menu{
+    font-size: 1.75rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+hr{
+    border-width: medium;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+#typing-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#typing-area #text{
+    padding: 0rem 1rem;
+}
+
+#input-box{
+    width: 80%;
+}
+
+#input-box input{
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    font-family: Balsamiq Sans;
+    border-width: medium;
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    outline-width: 0px;
+}
+
+footer{
+    font-size: 1.5rem;
+    color: white;
+}
+
+#ulit:hover{
+    cursor: pointer;
+    border-bottom: solid white;
+}
