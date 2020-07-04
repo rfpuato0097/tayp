@@ -76,6 +76,10 @@ footer{
     color: white;
 }
 
+a:link, a:visited{
+    color: white;
+}
+
 #ulit:hover{
     cursor: pointer;
     border-bottom: solid white;
